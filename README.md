@@ -25,7 +25,7 @@ encrypted representation, which can then be stored in the configuration
 file.  [Ionic policy controls](https://dev.ionic.com/api/policies) can then allow the release of the encryption key 
 only to the device authorized to access the encrypted data.
 
-A [previous SDK sample](https://github.com/IonicDev/sample-tomcat-password-2) walked through a use case in which the 
+A [previous SDK sample](https://github.com/IonicDev/sample-tomcat-password-1) walked through a use case in which the 
 password 
 was protected with Ionic encryption.  The chunk cipher encrypted representation of the password was stored in the 
 Tomcat configuration file.  The *PropertySource* Tomcat extension was used to pass the plaintext password to Tomcat on 
